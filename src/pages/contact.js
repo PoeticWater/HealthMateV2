@@ -1,5 +1,5 @@
 export default function Contact() {
   return (
-    <h1>Contact us at HealthMate</h1>
+    <h1>Contact HealthMate</h1>
   );
 }
