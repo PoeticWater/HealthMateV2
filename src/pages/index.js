@@ -2,17 +2,20 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>
+
+    <div style={{ textAlign: 'center', padding: '20px', fontFamily: 'Arial' }}>
 
       <h1>Welcome to HealthMate</h1>
       <p>Your AI symptom checker</p>
-      <p>Please select any of the two options given below</p>
+      <p>Please select an option:</p>
 
-      <nav>
-        <Link href="/about">About Us</Link>
+        <Link href="/checksym">
+          <button>Check Symptoms</button>
+        </Link>
 
-        <Link href="/contact">Contact Us</Link>
-      </nav>
+        <Link href="/healtips">
+          <button>Health Tips</button>
+        </Link>
 
     </div>
   );
