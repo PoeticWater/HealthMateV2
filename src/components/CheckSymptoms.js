@@ -11,7 +11,7 @@ export default function CheckSymptoms() {
 
     return (
         <div>
-            <h2>Please check your symptoms</h2>
+            <h2>Please enter your symptoms</h2>
             <input 
               type="text"
               placeholder="E.g., Fever, Cough, etc."
